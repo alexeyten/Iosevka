@@ -1,0 +1,91 @@
+[buildPlans.lynn]
+family = 'Iosevka Lynn'
+spacing = 'term'
+#no-cv-ss = true
+#no-ligation = true
+
+[buildPlans.lynn.ligations]
+inherits = 'default-calt'
+disables = ['arrow', 'html-comment']
+
+[buildPlans.lynn.variants]
+inherits = 'ss15'
+
+[buildPlans.lynn.variants.design]
+# B D G I J M P Q R
+capital-b = 'more-asymmetric-interrupted-serifless'
+capital-d = 'more-rounded-serifless'
+capital-g = 'toothless-rounded-serifless-hooked'
+capital-i = 'short-serifed'
+capital-j = 'flat-hook-serifed'
+capital-m = 'slanted-sides-hanging'
+capital-p = 'open'
+capital-q = 'crossing-curly-tailed'
+capital-r = 'straight-open'
+
+# a e g m r
+a = 'double-storey-serifless'
+e = 'rounded'
+g = 'double-storey-open'
+m = 'short-leg'
+r = 'corner-hooked'
+
+# ΓГ
+capital-gamma = 'top-right-serifed'
+
+# 0 1 2 3 4 6 7 9
+zero = 'reverse-slashed'
+one = 'base'
+two = 'curly-neck'
+three = 'flattop'
+four = 'semi-open'
+six = 'straight-bar'
+seven = 'bend-serifed'
+nine = 'straight-bar'
+
+# ~ * _ ^ () {} # & @ % ‰ ‱ | <= >= ? ! . , : ;
+tilde = 'low'
+asterisk = 'turn-hex-low'
+underscore = 'high'
+caret = 'low'
+paren = 'flat-arc'
+brace = 'curly'
+number-sign = 'upright'
+ampersand = 'upper-open'
+#at = 'short'
+at = 'fourfold'
+percent = 'dots'
+#percent = 'rings-continuous-slash-also-connected'
+bar = 'force-upright'
+lig-ltgteq = 'slanted'
+question = 'corner-flat-hooked'
+punctuation-dot = 'square'
+
+[buildPlans.lynn.variants.upright]
+# f i l u w
+f = 'flat-hook'
+i = 'hooky'
+l = 'serifed-flat-tailed'
+u = 'toothless-corner'
+w = 'straight'
+
+[buildPlans.lynn.weights.regular]
+shape = 450
+menu  = 400
+css   = 400
+[buildPlans.lynn.weights.bold]
+shape = 800
+menu  = 700
+css   = 700
+
+[buildPlans.lynn.slopes]
+upright = 'normal'
+italic  = 'italic'
+
+[buildPlans.lynn.widths.normal]
+shape = 560
+menu  = 5
+css   = 'normal'
+
+[buildPlans.lynn.metric-override.multiplies]
+sb = 0.65
